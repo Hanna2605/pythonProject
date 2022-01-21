@@ -28,6 +28,8 @@ print(example_string2.capitalize())
 print(example_string3.strip('*'))
 
 print(example_string4[0].upper() + example_string4[1:17] + example_string4[17].upper() + example_string4[18:])
+print(example_string4.capitalize().replace("jack","Jack"))
+print(example_string4.capitalize().replace(example_string4[17:], example_string4[17:].capitalize()))
 
 print(var2.capitalize() + ',' + var3.lower() + ' ' + var1.capitalize())
 
