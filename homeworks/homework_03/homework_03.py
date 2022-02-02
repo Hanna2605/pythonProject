@@ -11,6 +11,7 @@ while True:
             raise UserWarning
     except ValueError:
         print('ID you entered is not numeric!')
+        continue
     except UserWarning:
         print('ID you entered is not 11 digits long')
     else:
