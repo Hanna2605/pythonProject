@@ -1,4 +1,4 @@
-name = input('Please enter you name: ')
-surname = input('Please enter you name: ')
-age = input('Please enter you name: ')
-print(f'Hello,{surname} {name}. Your age is {age}')
+name = input('Please enter your name: ')
+surname = input('Please enter your surname: ')
+age = input('Please enter your age: ')
+print(f'Hello, {surname.capitalize()} {name.capitalize()}. Your age is {age}.')
