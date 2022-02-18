@@ -63,7 +63,7 @@ with open('people.txt', 'r', encoding='UTF8') as file:
     print('6. Check ISIKUKOOD validation:')
 
     data_id = input('Input ISIKUKOOD: ')
-    pattern_id = re.compile(r'[1-6][0-9]{2}([0][0-9]|[1][02])([0][1-9]|[12][0-9]|[3][01])\d{4}')
+    pattern_id = re.compile(r'[1-6][0-9]{2}([0][1-9]|[1][0-2])([0][1-9]|[12][0-9]|[3][01])\d{4}')
     matches_id = pattern_id.fullmatch(data_id)
     if matches_id == None:
         print("Sorry,your isikukood is invalid!")
