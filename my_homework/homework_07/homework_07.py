@@ -25,7 +25,7 @@ with open('text_homework.txt', 'r', encoding='UTF8') as file:
     print('3. Find the time in text:')
 
     data_time = ('Завтрак в 09:00, обед в 14:30, сон в 23:30. Конец света в 55:71')
-    pattern_time = re.compile(r'([01][0-9]|2[0-3]):[0-5][0-9]')
+    pattern_time = re.compile(r'\b([01][0-9]|2[0-3]):([0-5][0-9])\b')
     matches_time = pattern_time.finditer(data_time)
     for match in matches_time:
         print(match.group())
@@ -63,7 +63,7 @@ with open('people.txt', 'r', encoding='UTF8') as file:
     print('6. Check ISIKUKOOD validation:')
 
     data_id = input('Input ISIKUKOOD: ')
-    pattern_id = re.compile(r'[1-6][0-9]{2}([0][1-9]|[1][0-2])([0][1-9]|[12][0-9]|[3][01])\d{4}')
+    pattern_id = re.compile(r'[1-6][0-9]{2}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])\d{4}')
     matches_id = pattern_id.fullmatch(data_id)
     if matches_id == None:
         print("Sorry,your isikukood is invalid!")
