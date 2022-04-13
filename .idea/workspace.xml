@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f36d2f77-0291-4e0b-904e-120ca5e75272" name="Changes" comment="homework_08.py">
-      <change afterPath="$PROJECT_DIR$/my_homework/homework_pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f36d2f77-0291-4e0b-904e-120ca5e75272" name="Changes" comment="homework_pandas.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645434498889</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="homework_pandas.py">
+      <created>1649661563473</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1649661563473</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +326,8 @@
     <MESSAGE value="homework_06.py" />
     <MESSAGE value="homework_07.py" />
     <MESSAGE value="homework_08.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework_08.py" />
+    <MESSAGE value="homework_pandas.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_pandas.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
